@@ -11,6 +11,7 @@ import java.util.Observable;
  * @autor cgl
  * @time 2016/9/5.
  * 作用: 主题实现类，在观察者模式作为主题,该测试不是线程安全
+ *
  */
 public class WeatherDate extends Observable implements Subject {
     private List<Observer> observers;
